@@ -99,6 +99,9 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 .catch((error) => console.log(error))
 
 // promise.all
-// yes this is also available, kuch reading aap b kro.
+// The Promise.all() static method takes an iterable of promises as input and returns a single Promise.
+// This returned promise fulfills when all of the input's promises fulfill (including when an empty iterable is passed),
+// with an array of the fulfillment values.
+// It rejects when any of the input's promises rejects, with this first rejection reason.
 
 //fetch runs first because its queued in microtask queue and have more priority than setTimeout which is in callback queue
