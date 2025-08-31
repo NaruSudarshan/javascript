@@ -1,0 +1,4 @@
+javascript is synchronous by default, single threaded
+
+blocking code(read file sync) - code that takes a long time to execute, preventing the execution of other code until it finishes
+non-blocking code(read file async) - code that allows other code to run while it is executing
